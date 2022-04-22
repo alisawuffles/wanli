@@ -11,8 +11,8 @@
 cat $0
 echo "--------------------"
 
-train_file=annotation/all_batches/duplicate_shuffles/train_9.jsonl
-output_dir=models/duplicate_shuffles/roberta-large-wanli-9
+train_file=data/wanli/train.jsonl
+output_dir=models/roberta-large-wanli
 
 python -m classification.run_nli \
   --model_name_or_path roberta-large \
