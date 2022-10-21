@@ -10,7 +10,7 @@ In this way, WANLI represents a new approach to dataset creation that combines t
 You can download a WANLI-trained RoBERTa-large model from HuggingFace models [here](https://huggingface.co/alisawuffles/roberta-large-wanli). This also includes a small demo!
 
 ## Data
-Download the WANLI dataset here! [https://allenai.org/data/wanli](https://allenai.org/data/wanli)
+Download the WANLI dataset [here](https://allenai.org/data/wanli)! 
 
 Other NLI datasets used in this work (including MultiNLI and the out-of-domain evaluation sets) can be found in this Google Drive [folder](https://drive.google.com/drive/u/0/folders/190bQgz1Mu8Do_0KOu6_NN84z9vai9nkj).
 
