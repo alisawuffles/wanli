@@ -10,7 +10,9 @@ In this way, WANLI represents a new approach to dataset creation that combines t
 You can download a WANLI-trained RoBERTa-large model from HuggingFace models [here](https://huggingface.co/alisawuffles/roberta-large-wanli). This also includes a small demo!
 
 ## Data
-The WANLI dataset and other NLI datasets used in this work (including MultiNLI and the out-of-domain evaluation sets) can be found in this Google Drive [folder](https://drive.google.com/drive/u/0/folders/190bQgz1Mu8Do_0KOu6_NN84z9vai9nkj). We especially encourage you to take a look at the examples where the two annotators disagree, which often capture wonderful ambiguities that raise interesting questions about the task. A data card for WANLI, including more detailed description of the data, can be found in `data/wanli`. 
+Download the WANLI dataset here! [https://allenai.org/data/wanli](https://allenai.org/data/wanli)
+
+Other NLI datasets used in this work (including MultiNLI and the out-of-domain evaluation sets) can be found in this Google Drive [folder](https://drive.google.com/drive/u/0/folders/190bQgz1Mu8Do_0KOu6_NN84z9vai9nkj).
 
 ## Pipeline
 Here are the steps to replicate the process of creating WANLI. Recall that the prerequisites of this pipeline are an existing dataset (we use MultiNLI) and a task model trained on this dataset (we finetune RoBERTa-large). The relevant scripts can be found in the `scripts/` folder.
