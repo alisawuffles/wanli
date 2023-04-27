@@ -27,14 +27,18 @@ Here are the steps to replicate the process of creating WANLI. Recall that the p
 
 ## Citation
 ```
-@misc{liu-etal-2022-wanli,
-    title = "WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation",
+@inproceedings{liu-etal-2022-wanli,
+    title = "{WANLI}: Worker and {AI} Collaboration for Natural Language Inference Dataset Creation",
     author = "Liu, Alisa  and
       Swayamdipta, Swabha  and
       Smith, Noah A.  and
       Choi, Yejin",
-    month = jan,
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
     year = "2022",
-    url = "https://arxiv.org/pdf/2201.05955",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.508",
+    pages = "6826--6847",
 }
 ```
