@@ -1,5 +1,5 @@
 # WANLI
-This repository contains the code and data for [WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation](https://arxiv.org/abs/2201.05955).
+This repository contains the code and data for [WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation](https://aclanthology.org/2022.findings-emnlp.508/).
 
 WANLI (**W**orker-**A**I Collaboration for **NLI**) is a collection of 108K English sentence pairs for the task of natural language inference (NLI).
 Each example is created by first identifying a "pocket" of examples in [MultiNLI](https://cims.nyu.edu/~sbowman/multinli/) that share a challenging reasoning pattern, then instructing GPT-3 to write a new example with the same pattern.
